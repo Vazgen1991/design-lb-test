@@ -1,0 +1,6 @@
+.logo {
+  margin-right: 64px;
+  @include for-desktop-up {
+    margin-right: 25px;
+  }
+}

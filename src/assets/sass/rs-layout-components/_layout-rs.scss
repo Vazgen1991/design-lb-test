@@ -1,0 +1,139 @@
+@media (max-width: 1440px) {
+  .reaction-section {
+    right: 25px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .header {
+    .nav {
+      .navbar-nav {
+        .nav-item {
+          font-size: 14px;
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .order-block {
+      .order-item {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .mobile-none {
+    display: none;
+  }
+  .header {
+    .order-block {
+      .order-item {
+        margin-right: 23px;
+      }
+
+      .mobile-filter-icon {
+        display: block;
+        margin-bottom: 6px;
+      }
+    }
+
+    .nav {
+      display: none;
+    }
+
+    .nav-rs {
+      display: block;
+
+    }
+
+  }
+  .option-list {
+    list-style-type: none;
+    white-space: nowrap;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+
+    .option-item {
+      display: inline;
+      margin-bottom: 10px;
+      height: 32px;
+
+    }
+  }
+  .category-select-list {
+    position: absolute;
+    background: white;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    left: -100%;
+    transition: .3s all ease;
+
+    &.open-mobile-filter {
+      transition: .3s all ease;
+      left: 0;
+
+    }
+
+    .category-header {
+      padding: 16px 0;
+      margin-bottom: 27px;
+
+      border-bottom: 1px solid $border-color;
+
+      .category-header-item {
+        padding: 0 16px;
+      }
+    }
+
+
+    .select-content {
+      padding: 0 16px;
+    }
+
+  }
+  .filter-dropdown {
+    display: none;
+  }
+  .mobile-filter-dropdown {
+    display: block !important;
+
+  }
+  .reset-filter-btn {
+    margin: 35px 15px 25px 15px;
+  }
+  .category {
+    display: none;
+  }
+  .category-mobile {
+    display: block !important;
+  }
+
+
+}
+
+@media (max-width: 690px) {
+  .spa-list {
+    grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+  }
+}
+
+@media (max-width: 599px) {
+  .reaction-section {
+    right: 5px;
+  }
+  .container {
+    padding: 0;
+  }
+  .header, .title-area, .breadcrumb-nav, .sort-area, .mobile-pd {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .new {
+    top: 8px !important;
+  }
+
+}

@@ -1,0 +1,21 @@
+.option-link {
+  font-family: Gilroy-SemiBold, sans-serif;
+  font-size: $font-primary;
+  color: $primary-color;
+  line-height: $line-primary;
+  border-radius: $border-radius-primary;
+  height: 40px;
+  padding: 0 16px;
+  transition: .3s all ease;
+  &:hover {
+    cursor: pointer;
+    background: $link-color;
+    color: $active-color;
+  }
+  &:active {
+    background: $active-color;
+    color: #FFFFFF;
+  }
+
+
+}

@@ -1,0 +1,11 @@
+.nav-link {
+  &.active {
+    color: $active-color;
+  }
+  &:hover {
+    color: $active-color;
+  }
+  @include for-desktop-up {
+    font-size: $font-secondary;
+  }
+}

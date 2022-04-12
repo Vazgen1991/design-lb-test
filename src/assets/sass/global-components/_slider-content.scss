@@ -1,0 +1,28 @@
+.reaction-section {
+  font-family: Gilroy-Bold, sans-serif;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  .reaction-item {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    span {
+      display: inline-block;
+      &.icon-like {
+        &:hover {
+          cursor: pointer;
+          opacity: .7;
+        }
+
+      }
+    }
+    .count {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}

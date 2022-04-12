@@ -1,0 +1,82 @@
+
+.btn {
+
+  width: 100%;
+
+  border-radius: $border-radius-primary;
+  &:hover {
+    cursor: pointer;
+    @include transition(all .3s);
+  }
+
+  &.filled {
+    border: 0;
+
+    &.primary {
+      background: $secondary-color;
+
+      &:hover {
+
+        background-color: $link-color;
+        color: $active-color;
+
+      }
+      &:active {
+
+        background-color: $active-color;
+        color: #ffffff;
+      }
+      &.font-bd {
+        font-family: Gilroy-SemiBold,sans-serif;
+      }
+      &.font-md {
+        font-family: Gilroy-Medium,sans-serif;
+      }
+    }
+
+  }
+
+  &.outline {
+
+    background: #ffffff;
+    border: 1px solid;
+
+    &.sign-btn {
+      border-color: $border-color;
+      &:hover {
+        color: $active-color;
+        border: $active-border-color;
+      }
+    }
+    &.order-btn {
+      color: $active-color;
+      border-color: $active-color;
+      &:hover {
+        background: $active-color;
+        color: #ffffff;
+        //border: none;
+      }
+
+    }
+
+
+  }
+  &.btn-lg {
+    width: 143px;
+    height: 40px;
+    @include for-desktop-up {
+      width: 125px;
+    }
+  }
+  &.btn-sm {
+    width: 72px;
+    height: 40px;
+  }
+
+}
+
+
+
+
+
+

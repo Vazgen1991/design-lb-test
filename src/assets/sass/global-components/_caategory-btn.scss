@@ -1,0 +1,33 @@
+.select-btn {
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: $font-alternative;
+  line-height: $line-secondary;
+  color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: transparent;
+  text-align: left;
+  margin-bottom: 13px;
+  padding: 0;
+  &:hover {
+    cursor: pointer;
+  }
+  &.isOpen {
+    i {
+        transform: rotate(180deg);
+      }
+
+  }
+  .selected-count {
+    font-family: Gilroy-Regular, sans-serif;
+    font-size: $font-alternative;
+    line-height: $line-secondary;
+    color: #AFB3BB;
+    margin-right: auto;
+    margin-left: 8px;
+
+
+  }
+}

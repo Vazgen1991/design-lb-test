@@ -1,0 +1,32 @@
+@import "~vue-slick-carousel/dist/vue-slick-carousel.css";
+@import "~vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+
+.slick-slider {
+
+  width: 360px;
+  margin-right: 16px;
+  .slick-dots {
+    width: 50%;
+    bottom: 16px;
+    text-align: left;
+    padding-left: 7px;
+    li {
+      width: 8px;
+      button {
+        &:before {
+          font-size: 8px;
+          color: #FFFFFF;
+        }
+      }
+      &.slick-active {
+        button {
+          &:before {
+            opacity: 1;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
+
